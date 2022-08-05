@@ -10,6 +10,6 @@ variable "acl_value" {
 variable "aws_region" {
 }
 
-variable "key"{
+variable "environment_key"{
   type = string
 }
