@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "onebucket" {
 }
 
 resource "aws_s3_bucket_object" "oneobject"{
-  bucket = aws_s3_bucket.onebucket.bucket_id
+  bucket = aws_s3_bucket.onebucket.id
   key = var.environment_key
   
 }
